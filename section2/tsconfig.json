@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": true,
+    // "strictNullChecks": false, // null binding 허용
+    "moduleDetection": "force",
+    "skipLibCheck": true // undici-types 오류 체크 x
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
+}
