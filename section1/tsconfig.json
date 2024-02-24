@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist", // tsc 빌드 디렉토리 설정
+    "strict": true, // 타입 강제
+    "moduleDetection": "force", // export {}; 자동으로 넣어줘서 전역변수가 되는 것을 막아줌
+    "skipLibCheck": true // undici-types 오류 체크 x
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
+}
